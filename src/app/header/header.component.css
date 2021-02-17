@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: #0099CB;
+    background-color: white;
+    font-size: 1.3em;
+}
+ul {
+    list-style: none;
+    display:  flex;
+    gap: 40px;
+}
+button {
+    font-size: 0.9em;
+    padding: 0.5em 2em;
+    transition: 0.5s;
+}
+button:hover {
+    cursor: pointer;
+}
+.logo {
+    height: 40px;
+}
+.support {
+    display: flex;
+    height: 55px;
+    background-color: #0099CB;
+    color: white;
+    font-weight: 100;  
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 1em;
+}
+
+.signup0 {
+    background-color: #FFCC33;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+}
+.signin0 {
+    background-color: white;
+    color: #0099CB;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #0099CB;
+    margin-left: 20px;
+}
+.signin0:hover, .signin:active {
+    background-color: #bfedff;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
