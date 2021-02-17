@@ -8,11 +8,25 @@ import { HomeComponent } from './home/home.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { PartnersComponent } from './partners/partners.component';
+import { OurSolutionsComponent } from './our-solutions/our-solutions.component';
+import { OurServicesComponent } from './our-services/our-services.component';
+import { OurMapComponent } from './our-map/our-map.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent,
+    PartnersComponent,
+    OurSolutionsComponent,
+    OurServicesComponent,
+    OurMapComponent,
+    TestimonialsComponent
   ],
   imports: [
     BrowserModule,
