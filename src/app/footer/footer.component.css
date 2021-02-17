@@ -2,9 +2,15 @@
     background-color: #0099CB;
     height: 300px;
     display: flex;
-    justify-content: space-between;
     padding: 30px;
+    color: white;
+    justify-content: space-between;
 }
 .logo {
     height: 40px;
+}
+h3 {
+    font-weight: 500;
+    color:#8ee3ff;
+    font-size: 1.25em;
 }

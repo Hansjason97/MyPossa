@@ -8,18 +8,18 @@
 ul {
     list-style: none;
     display:  flex;
-    gap: 40px;
+    gap: 2em;
 }
 button {
     font-size: 0.9em;
-    padding: 0.5em 2em;
+    padding: 0.5em 1.5em;
     transition: 0.5s;
 }
 button:hover {
     cursor: pointer;
 }
 .logo {
-    height: 40px;
+    height: 2.5vw;
 }
 .support {
     display: flex;

@@ -1,0 +1,25 @@
+.solutions {
+    text-align: center;
+    padding: 15px 10vw;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 320px);
+    column-gap: 5vw;
+    row-gap: 5vw;
+    margin-top: 40px;
+    justify-content: center;
+    margin-bottom: 5vw;
+
+}
+img {
+    max-height: 250px;
+}
+h4 {
+    font-weight: 600;
+    font-size: 1.4em;
+    color: #0099CB;
+}
+p {
+    font-size: 1.3em;
+}
