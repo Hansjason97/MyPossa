@@ -14,3 +14,11 @@ h3 {
     color:#8ee3ff;
     font-size: 1.25em;
 }
+
+.socials {
+    height: 25px;
+    padding : 10px 15px;
+}
+p {
+    font-size: 1.1em;
+}

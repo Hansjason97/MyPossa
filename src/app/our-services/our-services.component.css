@@ -1,0 +1,25 @@
+section {
+    background-color: #EBEBEB;
+    text-align: center;
+    padding: 15px 10vw;
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+    column-gap: 5vw;
+    row-gap: 5vw;
+    margin-top: 40px;
+    justify-content: center;
+    margin-bottom: 5vw;
+}
+img {
+    height: 200px;
+}
+h4 {
+    font-weight: 600;
+    font-size: 1.4em;
+    color: #FFCC33;
+}
+p {
+    font-size: 1.25em;
+}
