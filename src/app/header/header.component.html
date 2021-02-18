@@ -4,10 +4,15 @@
   </mat-toolbar>
   
   <mat-toolbar class="navbar">
-    <img src="assets/images/MyPossa.png" class="logo">
+    <img src="assets/images/MyPossa.png" class="logo" routerLink="/home">
     <span>
       <ul>
-        <li>Solutions</li>
+        <li [matMenuTriggerFor]="menu">Solutions<mat-icon class="inline-icon">keyboard_arrow_down</mat-icon>
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item class="menu1">MyPossa Pay</button>
+            <button mat-menu-item class="menu1">MyPossa Callbox</button>
+          </mat-menu>
+        </li>
         <li>Documentation</li>
         <li>Tarifs</li>
       </ul>

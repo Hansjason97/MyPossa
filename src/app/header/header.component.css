@@ -10,6 +10,9 @@ ul {
     display:  flex;
     gap: 2em;
 }
+ul li:hover {
+    cursor: pointer;
+}
 button {
     font-size: 0.9em;
     padding: 0.5em 1.5em;
@@ -20,6 +23,7 @@ button:hover {
 }
 .logo {
     height: 2.5vw;
+    cursor: pointer;
 }
 .support {
     display: flex;
@@ -54,4 +58,17 @@ button:hover {
 a {
     text-decoration: none;
     color: white;
+}
+.menu1 {
+    font-size: 1em;
+    font-weight: 500;
+    color: #0099CB;
+    padding: 0.5em 3em;
+}
+.menu1:hover {
+    background-color: #eeeeee;
+}
+.inline-icon {
+    position: relative;
+    top: 15%;
 }
