@@ -1,9 +1,9 @@
 section {
     background-color: #EBEBEB;
     text-align: center;
-    padding: 15px 10vw;
+    padding: 30px 10vw;
 }
-.services {
+/* .services {
     display: grid;
     grid-template-columns: repeat(auto-fill, 270px);
     column-gap: 5vw;
@@ -11,6 +11,16 @@ section {
     margin-top: 40px;
     justify-content: center;
     margin-bottom: 5vw;
+} */
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.service {
+    width: 270px;
+    padding: 5vw;
 }
 img {
     height: 200px;
