@@ -14,7 +14,8 @@ import { PartnersComponent } from './partners/partners.component';
 import { OurSolutionsComponent } from './our-solutions/our-solutions.component';
 import { OurServicesComponent } from './our-services/our-services.component';
 import { OurMapComponent } from './our-map/our-map.component';
-import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component'; 
+import {IvyCarouselModule} from 'angular-responsive-carousel';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
+    IvyCarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

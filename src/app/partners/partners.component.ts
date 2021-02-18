@@ -11,5 +11,8 @@ export class PartnersComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  images = [
+    {path: 'PATH_TO_IMAGE'},
+    {path: 'PATH_TO_IMAGE'},
+]
 }
