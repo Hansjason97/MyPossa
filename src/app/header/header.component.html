@@ -4,7 +4,7 @@
   </mat-toolbar>
   
   <mat-toolbar class="navbar">
-    <img src="assets/images/MyPossa.png" class="logo" routerLink="/home">
+    <object data="assets/images/MyPossa.png" class="logo" routerLink="/"></object>
     <span>
       <ul>
         <li [matMenuTriggerFor]="menu">Solutions<mat-icon class="inline-icon">keyboard_arrow_down</mat-icon>
@@ -19,7 +19,7 @@
     </span>
     <span>
       <button>FR</button>
-      <button class="signup0">Inscription</button>
-      <button class="signin0">Connexion</button>
+      <button mat-flat-button color="accent" class="btn0 btn1">Inscription</button>
+      <button mat-stroked-button color="primary" class="btn0">Connexion</button>
     </span>
   </mat-toolbar>

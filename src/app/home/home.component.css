@@ -26,17 +26,10 @@
     padding: 0.5em 2em;
     border-radius: 5px;
     border: 2px solid #FFCC33;
-    background-color: white;
-    color: #FFCC33;
     font-size: 2em;
     font-weight: 700;
 }
-.signup:hover {
-    color: white;
-    border: none;
-    background-color: #FFCC33;
-    transition: 0.5s;
-}
+
 button:hover {
     cursor: pointer;
 }

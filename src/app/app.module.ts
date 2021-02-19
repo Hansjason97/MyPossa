@@ -1,4 +1,3 @@
-import { DropdownDirective } from './shared/dropdown.directive';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -31,7 +30,6 @@ import {MatMenuModule} from '@angular/material/menu';
     OurServicesComponent,
     OurMapComponent,
     TestimonialsComponent,
-    DropdownDirective,
   ],
   imports: [
     BrowserModule,

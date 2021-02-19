@@ -36,24 +36,12 @@ button:hover {
     font-size: 1em;
 }
 
-.signup0 {
-    background-color: #FFCC33;
+.btn0 {
+    margin-left: 20px;
+    padding: 0.2em 2em;
+}
+.btn1 {
     color: white;
-    font-weight: 700;
-    border-radius: 5px;
-    border: none;
-    margin-left: 20px;
-}
-.signin0 {
-    background-color: white;
-    color: #0099CB;
-    font-weight: 700;
-    border-radius: 5px;
-    border: 1px solid #0099CB;
-    margin-left: 20px;
-}
-.signin0:hover, .signin:active {
-    background-color: #bfedff;
 }
 a {
     text-decoration: none;
