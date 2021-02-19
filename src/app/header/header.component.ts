@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
 
 
 @Component({
@@ -8,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor(private breakpointObserver: BreakpointObserver) { }
+   isLaptop() {
+    return this.breakpointObserver.isMatched('(min-width: 1024px)');
   }
-
+  ngOnInit(): void { }
+  
 }

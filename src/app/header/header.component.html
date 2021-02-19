@@ -1,11 +1,12 @@
-<mat-toolbar class="support">
+<mat-toolbar class="support" *ngIf="isLaptop()">
     <mat-icon fontSet="material-icons-outlined">headset_mic</mat-icon>
     <span>Accéder au support </span> <mat-icon fontSet="material-icons-outlined">phone</mat-icon> <span>+237 670 55 76 65</span>
   </mat-toolbar>
   
-  <mat-toolbar class="navbar">
+  <mat-toolbar class="navbar"> 
+      <mat-icon *ngIf="!isLaptop()" class="menu0">menu</mat-icon><!--Only display on tablet and mobile-->
     <object data="assets/images/MyPossa.png" class="logo" routerLink="/"></object>
-    <span>
+    <span *ngIf="isLaptop()" class="links">
       <ul>
         <li [matMenuTriggerFor]="menu">Solutions<mat-icon class="inline-icon">keyboard_arrow_down</mat-icon>
           <mat-menu #menu="matMenu">
@@ -18,8 +19,8 @@
       </ul>
     </span>
     <span>
-      <button>FR</button>
-      <button mat-flat-button color="accent" class="btn0 btn1">Inscription</button>
-      <button mat-stroked-button color="primary" class="btn0">Connexion</button>
+      <button mat-flat-button color="danger" class="btn0">FR</button>
+      <button mat-flat-button color="accent" class="btn0 btn1" *ngIf="isLaptop()">Inscription</button>
+      <button mat-stroked-button color="primary" class="btn0" *ngIf="isLaptop()">Connexion</button>
     </span>
   </mat-toolbar>

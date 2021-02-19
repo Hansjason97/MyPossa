@@ -18,6 +18,7 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {MatMenuModule} from '@angular/material/menu';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import {MatMenuModule} from '@angular/material/menu';
     IvyCarouselModule,
     NgbModule,
     MatMenuModule,
+    MatSidenavModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
