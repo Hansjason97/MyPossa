@@ -23,7 +23,7 @@ button:hover {
     cursor: pointer;
 }
 .logo {
-    height: 2.5vw;
+    height: 2vw;
     cursor: pointer;
 }
 .support {
@@ -80,8 +80,9 @@ a {
 @media only screen and (max-width: 1023px){
     .navbar {
         justify-content: flex-start;
+        margin-top: 20px;
     }
     .logo {
-        height: 60%;
+        height: 50%;
     }
 }

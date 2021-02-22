@@ -4,7 +4,7 @@
 }
 .parent {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 320px);
+    grid-template-columns: repeat(auto-fill, 300px);
     column-gap: 5vw;
     row-gap: 5vw;
     margin-top: 40px;
