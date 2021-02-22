@@ -1,2 +1,55 @@
-<router-outlet></router-outlet>
+<mat-drawer-container>
+    <mat-drawer #drawer mode="over" class="navside">
+        <mat-toolbar>
+            <object data="assets/images/MyPossa.png" class="logo" (click)="drawer.toggle()"></object>     
+        </mat-toolbar>
+        <h3 class="sidemenu">Nos Services</h3>
+        <mat-nav-list>
+            <a mat-list-item routerLink="">Paiement des factures</a>
+            <a mat-list-item routerLink="">Transfert d'argent</a>
+            <a mat-list-item routerLink="">Crédit téléphonique</a>
+        </mat-nav-list>
+        <br>
+        <mat-nav-list>
+            <a mat-list-item routerLink="">Documentation</a>
+            <a mat-list-item routerLink="">Tarifs</a>
+        </mat-nav-list>
+    </mat-drawer>
+    <mat-drawer-content>
+    <mat-toolbar class="support" *ngIf="isLaptop()">
+        <mat-icon fontSet="material-icons-outlined">headset_mic</mat-icon>
+        <span>{{'SUPPORT.ACCESS' | translate}} </span> <mat-icon fontSet="material-icons-outlined">phone</mat-icon> <span>+237 670 55 76 65</span>
+    </mat-toolbar>
+    
+    <mat-toolbar class="navbar"> 
+        <mat-icon *ngIf="!isLaptop()" class="menu0" (click)="drawer.toggle()">menu</mat-icon><!--Only display on tablet and mobile-->
+    <object data="assets/images/MyPossa.png" class="logo" routerLink="/"></object>
+    <span *ngIf="isLaptop()" class="links">
+        <ul>
+        <li [matMenuTriggerFor]="menu">Solutions<mat-icon class="inline-icon">keyboard_arrow_down</mat-icon>
+            <mat-menu #menu="matMenu">
+            <button mat-menu-item class="menu1">MyPossa Pay</button>
+            <button mat-menu-item class="menu1">MyPossa Callbox</button>
+            </mat-menu>
+        </li>
+        <li>Documentation</li>
+        <li>Tarifs</li>
+        </ul>
+    </span>
+    <span>
+        <mat-form-field >
+            <mat-select [(value)]="translate.currentLang" (selectionChange)="changeLanguage($event)">
+              <mat-option *ngFor="let lang of translate.getLangs()" [value]="lang">
+                {{lang | uppercase}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        <button mat-flat-button color="accent" class="btn0 btn1" *ngIf="isLaptop()">Inscription</button>
+        <button mat-stroked-button color="primary" class="btn0" *ngIf="isLaptop()">Connexion</button>
+    </span>
+    </mat-toolbar>
 
+    <router-outlet></router-outlet>
+    </mat-drawer-content>
+
+</mat-drawer-container>

@@ -1,8 +1,14 @@
 <div class="parent">
     <h2>Partenaires</h2>
-        <div class="container">
-    <carousel
-        [images]="images" [height]=100  [margin]=60 [arrowsOutside]=true> 
-    </carousel>
+        <div class="container2">
+            <carousel [itemsPerSlide]="1"
+          [singleSlideOffset]="false"
+          [interval]="false"
+          [indicatorsByChunk]="true"
+          [showIndicators]="false">
+  <slide *ngFor="let slide of slides; let index=index">
+    <img [src]="slide.path" alt="image slide" style="display: block; width: 80%;">
+  </slide>
+</carousel>
     </div>
 </div>
