@@ -4,7 +4,12 @@
   </mat-toolbar>
   
   <mat-toolbar class="navbar"> 
-      <mat-icon *ngIf="!isLaptop()" class="menu0">menu</mat-icon><!--Only display on tablet and mobile-->
+      <mat-icon *ngIf="!isLaptop()" class="menu0" [matMenuTriggerFor]="menu2">menu</mat-icon><!--Only display on tablet and mobile-->
+      <mat-menu #menu2="matMenu">
+        <button mat-menu-item class="menu3">Solutions</button>
+        <button mat-menu-item class="menu3">Documentation</button>
+        <button mat-menu-item class="menu3">Tarifs</button>
+      </mat-menu>
     <object data="assets/images/MyPossa.png" class="logo" routerLink="/"></object>
     <span *ngIf="isLaptop()" class="links">
       <ul>
@@ -19,7 +24,7 @@
       </ul>
     </span>
     <span>
-      <button mat-flat-button color="danger" class="btn0">FR</button>
+      <button mat-button color="primary" class="btn0"><mat-icon>language</mat-icon> FR</button>
       <button mat-flat-button color="accent" class="btn0 btn1" *ngIf="isLaptop()">Inscription</button>
       <button mat-stroked-button color="primary" class="btn0" *ngIf="isLaptop()">Connexion</button>
     </span>

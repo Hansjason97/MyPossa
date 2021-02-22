@@ -1,10 +1,10 @@
 .footer {
     background-color: #0099CB;
-    height: 300px;
     display: flex;
     padding: 30px;
     color: white;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-items: center;
 }
 .logo {
     height: 40px;

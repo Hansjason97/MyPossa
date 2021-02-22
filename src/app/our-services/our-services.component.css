@@ -2,6 +2,7 @@ section {
     background-color: #EBEBEB;
     text-align: center;
     padding: 30px 10vw;
+    margin: auto;
 }
 /* .services {
     display: grid;
@@ -20,7 +21,7 @@ section {
 }
 .service {
     width: 270px;
-    padding: 5vw;
+    margin: 5vw;
 }
 img {
     height: 200px;

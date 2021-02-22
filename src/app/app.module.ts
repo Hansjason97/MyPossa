@@ -19,6 +19,7 @@ import {IvyCarouselModule} from 'angular-responsive-carousel';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     NgbModule,
     MatMenuModule,
     MatSidenavModule,
+    MatExpansionModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
