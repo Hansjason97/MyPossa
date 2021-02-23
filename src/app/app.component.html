@@ -37,13 +37,11 @@
         </ul>
     </span>
     <span>
-        <mat-form-field >
-            <mat-select [(value)]="translate.currentLang" (selectionChange)="changeLanguage($event)">
-              <mat-option *ngFor="let lang of translate.getLangs()" [value]="lang">
-                {{lang | uppercase}}
-              </mat-option>
-            </mat-select>
-          </mat-form-field>
+            <select #langselect (change)="translate.use(langselect.value)">
+              <option *ngFor="let lang of translate.getLangs()" [ngValue]="lang" [selected]="lang === translate.currentLang">
+                {{ lang }}
+              </option>
+            </select>
         <button mat-flat-button color="accent" class="btn0 btn1" *ngIf="isLaptop()">Inscription</button>
         <button mat-stroked-button color="primary" class="btn0" *ngIf="isLaptop()">Connexion</button>
     </span>

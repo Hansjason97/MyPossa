@@ -12,10 +12,14 @@ export class AppComponent {
   constructor (private breakpointObserver: BreakpointObserver,
               public translate: TranslateService){
                 /**Translation service */
-      translate.addLangs(['en', 'fr']);
-      translate.setDefaultLang('en');
+      translate.addLangs(['EN', 'FR']);
+      translate.setDefaultLang('EN');
       const browserLang = translate.getBrowserLang();
-      translate.use(browserLang.match(/en|fr/) ? browserLang : 'en');
+      translate.use(browserLang.match(/EN|FR/) ? browserLang : 'EN');
+
+      console.log('Browser Lang =', browserLang);
+    console.log('Navigator Lang =', navigator.language);
+    console.log('Current Lang =', translate.currentLang);
   }
   isLaptop() {
     return this.breakpointObserver.isMatched('(min-width: 1024px)');
