@@ -1,5 +1,41 @@
 {
     "SUPPORT": {
         "ACCESS": "Accéder au support"
+    },
+    "HEADER": {
+        "HOMEHEADING": "MyPossa, votre carte visa en Afrique par Mobile Money pour les paiements en ligne.",
+        "HOMESUB": "MyPossa vous offre l'opportunité d'acquérir une carte virtuelle Visa pour payer en ligne depuis l'Afrique à partir d'Orange Money, Mobile Money et bien d'autres. Ouvrez votre compte dès aujourd'hui et commencez à envoyer et recevoir de l'argent dans le monde entier.",
+        "HOMESIGNUP": "S'inscrire",
+        "SIGNIN": "Connexion",
+        "SOL": "Solutions",
+        "DOC": "Documentation",
+        "TARIF": "Tarifs"
+    },
+    "PARTNERS": {
+        "HEADING": "Ils nous font confiance"
+    },
+    "SOLUTIONS": {
+        "HEADING": "Nos Solutions",
+        "TPE": "TPE Mobile",
+        "TPESUB": "Solution d'encaisement des paiements",
+        "PAY": "MyPossa Pay",
+        "PAYSUB": "Solution pour commerçant de paiement en ligne avec l'API",
+        "CALLBOX": "MyPossa CallBox",
+        "CALLBOXSUB": "Disponible pour les agents mobile money",
+        "TONTINE": "MyPossa Tontine",
+        "TONTINESUB": "Gestionnaire de tontine pour les associations",
+        "DIASPORA": "MyPossa Diaspora",
+        "DIASPORASUB": "Envoyez de l'argent ou du crédit à vos proches depuis l'étranger",
+        "VCARD": "Carte Virtuelle",
+        "VCARDSUB": "Nous mettons à votre disposition des cartes virtuelles VISA ou Mastercard pour vos paiements en ligne"
+    },
+    "SERVICES": {
+        "HEADING": "Nos Services",
+        "BILL": "Paiement des Factures",
+        "BILLSUB": "Payer vos factures d'eau CAMWATER, d'électricité ENEO et activer votre abonnement CANAL+!",
+        "TRF": "Transfert d'Argent",
+        "TRFSUB": "Dépot et retrait d'argent issu de Mobile Money ou Orange Money. Le transfert d'argent MyPossa est gratuit",
+        "XAF": "Crédit Téléphonique",
+        "XAFSUB": "Achat de crédit téléphonique et Données mobiles partout dans le monde !"
     }
 }

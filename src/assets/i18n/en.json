@@ -1,5 +1,41 @@
 {
     "SUPPORT": {
-        "ACCESS": "Access support"
+        "ACCESS": "Access Support"
+    },
+    "HEADER": {
+        "HOMEHEADING": "MyPossa, your Visa card in Africa by Mobile Money for online payments.",
+        "HOMESUB": "MyPossa offers you the opportunity to get a Visa virtual card for your online payments from Africa by Orange money, Mobile Money and others. Get your account today and start sending and receiving money around the world.",
+        "HOMESIGNUP": "Sign Up",
+        "SIGNIN": "Sign In",
+        "SOL": "Solutions",
+        "DOC": "Documentation",
+        "TARIF": "Pricing"
+    },
+    "PARTNERS": {
+        "HEADING": "They trust us"
+    },
+    "SOLUTIONS": {
+        "HEADING": "Our Solutions",
+        "TPE": "Mobiles POS",
+        "TPESUB": "Solution d'encaisement des paiements",
+        "PAY": "MyPossa Pay",
+        "PAYSUB": "Solution pour commerçant de paiement en ligne avec l'API",
+        "CALLBOX": "MyPossa CallBox",
+        "CALLBOXSUB": "Disponible pour les agents mobile money",
+        "TONTINE": "MyPossa Tontine",
+        "TONTINESUB": "Gestionnaire de tontine pour les associations",
+        "DIASPORA": "MyPossa Diaspora",
+        "DIASPORASUB": "Envoyez de l'argent ou du crédit à vos proches depuis l'étranger",
+        "VCARD": "Virtual Card",
+        "VCARDSUB": "Nous mettons à votre disposition des cartes virtuelles VISA ou Mastercard pour vos paiements en ligne"
+    },
+    "SERVICES": {
+        "HEADING": "Our Services",
+        "BILL": "Payment of Invoices",
+        "BILLSUB": "Pay your CAMWATER or ENEO invoices and your CANAL + subscription",
+        "TRF": "Money Transfer",
+        "TRFSUB": "Deposit and withdrawal of money from Mobile Money or Orange Money. MyPossa money transfer is free",
+        "XAF": "Airtime",
+        "XAFSUB": "Buy airtime and Data around the world"
     }
 }
