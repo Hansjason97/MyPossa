@@ -16,15 +16,15 @@
         </mat-nav-list>
     </mat-drawer>
     <mat-drawer-content>
-    <mat-toolbar class="support" *ngIf="isLaptop()">
+    <mat-toolbar class="support" *ngIf="isLaptop">
         <mat-icon fontSet="material-icons-outlined">headset_mic</mat-icon>
         <span>{{'SUPPORT.ACCESS' | translate}} </span> <mat-icon fontSet="material-icons-outlined">phone</mat-icon> <span>+237 670 55 76 65</span>
     </mat-toolbar>
     
     <mat-toolbar class="navbar"> 
-        <mat-icon *ngIf="!isLaptop()" class="menu0" (click)="drawer.toggle()">menu</mat-icon><!--Only display on tablet and mobile-->
+        <mat-icon *ngIf="!isLaptop" class="menu0" (click)="drawer.toggle()">menu</mat-icon><!--Only display on tablet and mobile-->
     <object data="assets/images/MyPossa.png" class="logo" routerLink="/"></object>
-    <span *ngIf="isLaptop()" class="links">
+    <span *ngIf="isLaptop" class="links">
         <ul>
         <li [matMenuTriggerFor]="menu">{{'HEADER.SOL' | translate}}<mat-icon class="inline-icon">keyboard_arrow_down</mat-icon>
             <mat-menu #menu="matMenu">
@@ -32,8 +32,8 @@
             <button mat-menu-item class="menu1">MyPossa Callbox</button>
             </mat-menu>
         </li>
-        <li>Documentation</li>
-        <li>Tarifs</li>
+        <li>{{'HEADER.DOC' | translate}}</li>
+        <li>{{'HEADER.TARIF' | translate}}</li>
         </ul>
     </span>
     <span>
@@ -42,8 +42,8 @@
                 {{ lang }}
               </option>
             </select>
-        <button mat-flat-button color="accent" class="btn0 btn1" *ngIf="isLaptop()">Inscription</button>
-        <button mat-stroked-button color="primary" class="btn0" *ngIf="isLaptop()">Connexion</button>
+        <button mat-flat-button color="accent" class="btn0 btn1" *ngIf="isLaptop">{{'HEADER.HOMESIGNUP' | translate}}</button>
+        <button mat-stroked-button color="primary" class="btn0" *ngIf="isLaptop">{{'HEADER.SIGNIN' | translate}}</button>
     </span>
     </mat-toolbar>
 

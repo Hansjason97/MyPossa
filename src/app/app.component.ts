@@ -9,6 +9,7 @@ import {TranslateService} from '@ngx-translate/core';
 })
 export class AppComponent {
   title = 'MyPossa';
+  Laptop = true;
   constructor (private breakpointObserver: BreakpointObserver,
               public translate: TranslateService){
                 /**Translation service */
@@ -17,13 +18,8 @@ export class AppComponent {
       const browserLang = translate.getBrowserLang();
       translate.use(browserLang.match(/EN|FR/) ? browserLang : 'EN');
 
-      console.log('Browser Lang =', browserLang);
-    console.log('Navigator Lang =', navigator.language);
-    console.log('Current Lang =', translate.currentLang);
   }
-  isLaptop() {
-    return this.breakpointObserver.isMatched('(min-width: 1024px)');
-  }
+
    /**Translation functions */
    public changeLanguage(language: string) {
     this.translate.use(language);
