@@ -22,14 +22,20 @@ section {
 .service {
     width: 270px;
     margin: 5vw;
+    padding: 10px;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+.service:hover {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.15);
 }
 img {
-    height: 200px;
+    height: 100px;
 }
 h4 {
     font-weight: 600;
     font-size: 1.4em;
-    color: #FFCC33;
+    color: #5D2AFF;
 }
 p {
     font-size: 1.25em;

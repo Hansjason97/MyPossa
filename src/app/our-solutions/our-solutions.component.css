@@ -3,17 +3,19 @@
     padding: 15px 10vw;
 }
 .parent {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
-    column-gap: 5vw;
-    row-gap: 5vw;
-    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    margin-bottom: 5vw;
+    flex-wrap: wrap;
 
 }
+.sol {
+    width: 250px;
+    margin: 5vw;
+}
 img {
-    max-height: 250px;
+    max-height: 100px;
+    margin-bottom: 20px;
 }
 h4 {
     font-weight: 600;

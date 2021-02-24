@@ -10,7 +10,7 @@
 .support {
     display: flex;
     height: 55px;
-    background-color: #0099CB;
+    background: linear-gradient(270deg, rgba(93,42,255,1) 18%, rgba(42,44,255,1) 41%, rgba(0,87,191,1) 61%, rgba(0,150,212,1) 100%);
     color: white;
     font-weight: 100;  
     justify-content: flex-end;
@@ -70,6 +70,7 @@ a {
 }
 .menu0 {
     margin: 0 4vw ;
+    display: none;
 }
 .menu0:hover {
     cursor: pointer;
@@ -80,20 +81,35 @@ a {
 .menu3 {
     width: 80vw;
 }
-
+.selectLang {
+    color: #0099CB;
+    border: none;
+}
+.trans {
+    display: flex;
+    align-items: center;
+}
 /*Responsive zone
 //
 */
 @media only screen and (max-width: 1023px){
     .navbar {
-        justify-content: flex-start;
         margin-top: 20px;
     }
     .logo {
-        height: 3vw;
+        height: 25px;
+    }
+    .support {
+        display: none;
+    }
+    .links {
+        display: none;
+    }
+    .btn0 {
+        display: none;
+    }
+    .menu0 {
+        display: inline-block;
     }
 }
-.selectLang {
-    color: #0099CB;
-    border: none;
-}
+

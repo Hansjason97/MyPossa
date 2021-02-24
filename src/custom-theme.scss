@@ -13,7 +13,7 @@
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
 $MyPossa-primary: mat-palette($mat-light-blue);
-$MyPossa-accent: mat-palette($mat-amber, A200, A100, A400);
+$MyPossa-accent: mat-palette($mat-amber, A400, A100, A700);
 
 // The warn palette is optional (defaults to red).
 $MyPossa-warn: mat-palette($mat-red);

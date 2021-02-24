@@ -16,15 +16,15 @@
         </mat-nav-list>
     </mat-drawer>
     <mat-drawer-content>
-    <mat-toolbar class="support" *ngIf="isLaptop">
+    <mat-toolbar class="support" >
         <mat-icon fontSet="material-icons-outlined">headset_mic</mat-icon>
         <span>{{'SUPPORT.ACCESS' | translate}} </span> <mat-icon fontSet="material-icons-outlined">phone</mat-icon> <span>+237 670 55 76 65</span>
     </mat-toolbar>
     
     <mat-toolbar class="navbar"> 
-        <mat-icon *ngIf="!isLaptop" class="menu0" (click)="drawer.toggle()">menu</mat-icon><!--Only display on tablet and mobile-->
-    <object data="assets/images/MyPossa.png" class="logo" routerLink="/"></object>
-    <span *ngIf="isLaptop" class="links">
+       <div> <mat-icon class="menu0" (click)="drawer.toggle()">menu</mat-icon>
+    <object data="assets/images/MyPossa.png" class="logo" routerLink="/"></object></div>
+    <span class="links">
         <ul>
         <li [matMenuTriggerFor]="menu">{{'HEADER.SOL' | translate}}<mat-icon class="inline-icon">keyboard_arrow_down</mat-icon>
             <mat-menu #menu="matMenu">
@@ -36,14 +36,15 @@
         <li>{{'HEADER.TARIF' | translate}}</li>
         </ul>
     </span>
-    <span>
+    <span class="trans">
+        <mat-icon aria-hidden="false">language</mat-icon>
             <select #langselect (change)="translate.use(langselect.value)" class="selectLang">
               <option *ngFor="let lang of translate.getLangs()" [ngValue]="lang" [selected]="lang === translate.currentLang">
                 {{ lang }}
               </option>
             </select>
-        <button mat-flat-button color="accent" class="btn0 btn1" *ngIf="isLaptop">{{'HEADER.HOMESIGNUP' | translate}}</button>
-        <button mat-stroked-button color="primary" class="btn0" *ngIf="isLaptop">{{'HEADER.SIGNIN' | translate}}</button>
+        <button mat-flat-button color="accent" class="btn0 btn1" >{{'HEADER.HOMESIGNUP' | translate}}</button>
+        <button mat-stroked-button color="primary" class="btn0" >{{'HEADER.SIGNIN' | translate}}</button>
     </span>
     </mat-toolbar>
 
