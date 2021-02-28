@@ -37,5 +37,10 @@
         "TRFSUB": "Dépot et retrait d'argent issu de Mobile Money ou Orange Money. Le transfert d'argent MyPossa est gratuit",
         "XAF": "Crédit Téléphonique",
         "XAFSUB": "Achat de crédit téléphonique et Données mobiles partout dans le monde !"
+    },
+    "MAP": {
+        "H1": "Nous sommes présents dans plusieurs pays Africains",
+        "H2": "CAMEROUN, COTE D'IVOIRE, MALI, TOGO, RDC, BENIN",
+        "H3": "Bientôt disponible également au SENEGAL, BURKINA FASO, RWANDA, TCHAD"
     }
 }

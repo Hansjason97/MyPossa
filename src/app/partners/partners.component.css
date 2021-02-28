@@ -10,3 +10,12 @@
     text-align: center;
     padding: 20px 0 40px 0;
 }
+img {
+    width: 100px;
+    margin: 20px;
+    filter: grayscale(100);
+    transition: .5s all ease-in-out;
+}
+img:hover {
+    filter: none;
+}

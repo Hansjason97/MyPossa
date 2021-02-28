@@ -37,5 +37,10 @@
         "TRFSUB": "Deposit and withdrawal of money from Mobile Money or Orange Money. MyPossa money transfer is free",
         "XAF": "Airtime",
         "XAFSUB": "Buy airtime and Data around the world"
+    },
+    "MAP": {
+        "H1": "We are present around Africa",
+        "H2": "CAMEROUN, COTE D'IVOIRE, MALI, TOGO, RDC, BENIN",
+        "H3": "Coming soon in SENEGAL, BURKINA FASO, RWANDA, CHAD"
     }
 }
