@@ -42,5 +42,10 @@
         "H1": "We are present around Africa",
         "H2": "CAMEROUN, COTE D'IVOIRE, MALI, TOGO, RDC, BENIN",
         "H3": "Coming soon in SENEGAL, BURKINA FASO, RWANDA, CHAD"
+    },
+    "404": {
+        "H3": "404",
+        "H1": "Page not found !",
+        "BTN": "Return to home"
     }
 }

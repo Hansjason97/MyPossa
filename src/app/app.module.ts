@@ -1,3 +1,5 @@
+import { PricingComponent } from './pricing/pricing.component';
+import { ErreurComponent } from './erreur/erreur.component';
 import { MaterialModule } from './material.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -37,6 +39,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     OurServicesComponent,
     OurMapComponent,
     TestimonialsComponent,
+    ErreurComponent,
+    PricingComponent
   ],
   imports: [
     BrowserModule,

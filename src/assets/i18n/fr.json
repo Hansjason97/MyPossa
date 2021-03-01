@@ -42,5 +42,10 @@
         "H1": "Nous sommes présents dans plusieurs pays Africains",
         "H2": "CAMEROUN, COTE D'IVOIRE, MALI, TOGO, RDC, BENIN",
         "H3": "Bientôt disponible également au SENEGAL, BURKINA FASO, RWANDA, TCHAD"
+    },
+    "404": {
+        "H3": "404",
+        "H1": "Page introuvable !",
+        "BTN": "Retour à l'accueil"
     }
 }
