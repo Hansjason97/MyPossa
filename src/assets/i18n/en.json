@@ -12,31 +12,39 @@
         "TARIF": "Pricing"
     },
     "PARTNERS": {
+        "H1": "Our Partners",
+        "H2": "They trust us",
         "HEADING": "They trust us"
     },
     "SOLUTIONS": {
-        "HEADING": "Our Solutions",
+        "H1": "Our Solutions",
+        "H2": "What we offer",
         "TPE": "Mobiles POS",
-        "TPESUB": "Solution d'encaisement des paiements",
+        "TPESUB": "A Mobile Point of Sale system is a handheld device equipped with technology that lets it act as a standard POS system",
         "PAY": "MyPossa Pay",
-        "PAYSUB": "Solution pour commerçant de paiement en ligne avec l'API",
+        "PAYSUB": "Online payment merchant solution with API",
         "CALLBOX": "MyPossa CallBox",
-        "CALLBOXSUB": "Disponible pour les agents mobile money",
+        "CALLBOXSUB": "Available for Mobile Money agents",
         "TONTINE": "MyPossa Tontine",
-        "TONTINESUB": "Gestionnaire de tontine pour les associations",
+        "TONTINESUB": "We support associations in the management of their tontines",
         "DIASPORA": "MyPossa Diaspora",
-        "DIASPORASUB": "Envoyez de l'argent ou du crédit à vos proches depuis l'étranger",
+        "DIASPORASUB": "Send money or airtime to loved ones from abroad",
         "VCARD": "Virtual Card",
-        "VCARDSUB": "Nous mettons à votre disposition des cartes virtuelles VISA ou Mastercard pour vos paiements en ligne"
+        "VCARDSUB": "We provide VISA or Mastercard virtual cards for your online payments"
     },
     "SERVICES": {
         "HEADING": "Our Services",
+        "H2": "What we do",
         "BILL": "Payment of Invoices",
         "BILLSUB": "Pay your CAMWATER or ENEO invoices and your CANAL + subscription",
         "TRF": "Money Transfer",
         "TRFSUB": "Deposit and withdrawal of money from Mobile Money or Orange Money. MyPossa money transfer is free",
         "XAF": "Airtime",
         "XAFSUB": "Buy airtime and Data around the world"
+    },
+    "TESTIMONIALS": {
+        "H1": "Testimonials",
+        "H2": "What our clients say"
     },
     "MAP": {
         "H1": "We are present around Africa",

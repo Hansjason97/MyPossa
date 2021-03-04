@@ -12,18 +12,21 @@
         "TARIF": "Tarifs"
     },
     "PARTNERS": {
+        "H1": "Nos Partenaires",
+        "H2": "Ils nous font confiance",
         "HEADING": "Ils nous font confiance"
     },
     "SOLUTIONS": {
-        "HEADING": "Nos Solutions",
+        "H1": "Nos Solutions",
+        "H2": "Ce que nous proposons",
         "TPE": "TPE Mobile",
-        "TPESUB": "Solution d'encaisement des paiements",
+        "TPESUB": "Un terminal de paiement électronique est un appareil permettant aux commerçants d’encaisser des paiements par carte bancaire.",
         "PAY": "MyPossa Pay",
         "PAYSUB": "Solution pour commerçant de paiement en ligne avec l'API",
         "CALLBOX": "MyPossa CallBox",
         "CALLBOXSUB": "Disponible pour les agents mobile money",
         "TONTINE": "MyPossa Tontine",
-        "TONTINESUB": "Gestionnaire de tontine pour les associations",
+        "TONTINESUB": "Nous accompagnons les associations dans la gestion de leurs tontines",
         "DIASPORA": "MyPossa Diaspora",
         "DIASPORASUB": "Envoyez de l'argent ou du crédit à vos proches depuis l'étranger",
         "VCARD": "Carte Virtuelle",
@@ -31,12 +34,17 @@
     },
     "SERVICES": {
         "HEADING": "Nos Services",
+        "H2": "Ce que nous offrons",
         "BILL": "Paiement des Factures",
         "BILLSUB": "Payer vos factures d'eau CAMWATER, d'électricité ENEO et activer votre abonnement CANAL+!",
         "TRF": "Transfert d'Argent",
         "TRFSUB": "Dépot et retrait d'argent issu de Mobile Money ou Orange Money. Le transfert d'argent MyPossa est gratuit",
         "XAF": "Crédit Téléphonique",
         "XAFSUB": "Achat de crédit téléphonique et Données mobiles partout dans le monde !"
+    },
+    "TESTIMONIALS": {
+        "H1": "Témoignages",
+        "H2": "Ce que disent nos clients"
     },
     "MAP": {
         "H1": "Nous sommes présents dans plusieurs pays Africains",

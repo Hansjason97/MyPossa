@@ -41,3 +41,21 @@ h4 {
 p {
     font-size: 1.25em;
 }
+h1 {
+    font-weight: 700;
+    font-size: 2.5em;
+}
+h2 {
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #5D2AFF;
+}
+/**Responsive*/
+@media only screen and (max-width: 425px) {
+    h1{
+        font-size: 2em;
+    }
+    h2 {
+        font-weight: 500;
+    }
+} 
