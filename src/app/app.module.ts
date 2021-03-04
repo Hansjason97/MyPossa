@@ -17,7 +17,6 @@ import { OurMapComponent } from './our-map/our-map.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component'; 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
-import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 import {HttpClientModule, HttpClient} from '@angular/common/http';
 import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
@@ -48,7 +47,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     BrowserAnimationsModule,
     NgbModule,
     MaterialModule,
-    CarouselModule.forRoot(),
     FlexLayoutModule,
     HttpClientModule,
     HttpClientModule,
