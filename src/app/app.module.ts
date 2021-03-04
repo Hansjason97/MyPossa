@@ -16,6 +16,7 @@ import { OurServicesComponent } from './our-services/our-services.component';
 import { OurMapComponent } from './our-map/our-map.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component'; 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 
 import {HttpClientModule, HttpClient} from '@angular/common/http';
@@ -50,6 +51,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     FlexLayoutModule,
     HttpClientModule,
     HttpClientModule,
+    CarouselModule,
     TranslateModule.forRoot({
       defaultLanguage: 'EN',
       loader: {
