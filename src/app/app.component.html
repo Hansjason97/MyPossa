@@ -16,15 +16,15 @@
         </mat-nav-list>
     </mat-drawer>
     <mat-drawer-content>
-    <mat-toolbar class="support" >
+    <mat-toolbar class="support" fxShow="false" fxShow.gt-sm>
         <mat-icon fontSet="material-icons-outlined">headset_mic</mat-icon>
         <span>{{'SUPPORT.ACCESS' | translate}} </span> <mat-icon fontSet="material-icons-outlined">phone</mat-icon> <span>+237 670 55 76 65</span>
     </mat-toolbar>
     
     <mat-toolbar class="navbar"> 
-       <div> <mat-icon class="menu0" (click)="drawer.toggle()">menu</mat-icon>
+       <div> <mat-icon class="menu0" (click)="drawer.toggle()"fxHide="false" fxHide.gt-sm>menu</mat-icon>
     <object data="assets/images/MyPossa.png" class="logo" routerLink="/"></object></div>
-    <span class="links">
+    <span class="links" fxShow="false" fxShow.gt-sm>
         <ul>
         <li>{{'HEADER.SOL' | translate}}</li>
         <li>{{'HEADER.SER' | translate}}</li>
@@ -38,8 +38,8 @@
                 {{ lang }}
               </option>
             </select>
-        <button mat-flat-button color="accent" class="btn0 btn1" >{{'HEADER.HOMESIGNUP' | translate}}</button>
-        <button mat-stroked-button color="primary" class="btn0" >{{'HEADER.SIGNIN' | translate}}</button>
+        <button mat-flat-button color="accent" class="btn0 btn1" fxShow="false" fxShow.gt-sm>{{'HEADER.HOMESIGNUP' | translate}}</button>
+        <button mat-stroked-button color="primary" class="btn0" fxShow="false" fxShow.gt-sm>{{'HEADER.SIGNIN' | translate}}</button>
     </span>
     </mat-toolbar>
 

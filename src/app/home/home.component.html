@@ -4,7 +4,7 @@
         <p class="heading2">{{'HEADER.HOMESUB' | translate}}</p>
         <button mat-stroked-button color="accent" class="signup">{{'HEADER.HOMESIGNUP' | translate}}</button>
     </div>
-    <object data="assets/images/Home01.svg" class="header-img"></object>
+    <object data="assets/images/Home01.svg" class="header-img" fxHide="false" fxHide.xs></object>
   </div>
 
   <app-partners></app-partners>
@@ -18,6 +18,6 @@
       <h2>{{'MAP.H2' | translate}}</h2>
       <h3>{{'MAP.H3' | translate}}</h3>
     </div>
-    <object data="assets/images/carte.svg"></object>
+    <object data="assets/images/carte.svg" fxShow="false" fxShow.gt-md></object>
 </div>
   <app-footer></app-footer>
