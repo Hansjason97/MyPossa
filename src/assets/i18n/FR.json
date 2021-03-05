@@ -44,7 +44,10 @@
     },
     "TESTIMONIALS": {
         "H1": "Témoignages",
-        "H2": "Ce que disent nos clients"
+        "H2": "Ce que disent nos clients",
+        "C1": "J'étais sceptique à cause de l'ingéniosité et de la facilité alors j'ai commandé une première carte avec 10€ juste pour essayer et j'ai été bluffé ! Bravo MyPossa; aujourd'hui, vivant dans une ville où il n'y a pas de banque commerciale, je propose aux entrepreneurs du marketing de réseau ou des acheteurs en ligne d'utiliser MyPossa...",
+        "C2": "J'aime parce que c'est plus simple et plus facile à utiliser, et je trouve ça sécurisé car tu recharges ton montant en fonction de ta capacité et tu t'en sers facilement. Pas besoin de souffrir avec les histoires de carte visa où il faut toujours en aviser ton conseiller. Merci ! Tout travail mérite son prix courage",
+        "C3": "Pas mal du tout les frais sont plutôt abordables après achat de sa carte MyPossa"
     },
     "MAP": {
         "H1": "Nous sommes présents dans plusieurs pays Africains",
@@ -55,5 +58,23 @@
         "H3": "404",
         "H1": "Page introuvable !",
         "BTN": "Retour à l'accueil"
+    },
+    "PRICING": {
+        "H1": "Forfaits et Prix",
+        "H2": "Choisissez le forfait qui vous convient le mieux.",
+        "P1TITLE": "Carte MyPossa",
+        "P1PRICE": "7000",
+        "CURR": "xaf",
+        "P1T1": "Valide pendant 3 ans",
+        "P1T2": "Payable en une fois",
+        "P2TITLE": "Recharges",
+        "P2PRICE": "---",
+        "P2T1": "En fonction du montant",
+        "P2T2": "Recharges instantanées",
+        "P3TITLE": "Parrainez vos amis",
+        "P3PRICE": "---",
+        "P3T1": "Invitez vos amis à utiliser MyPossa",
+        "P3T2": "Et gagnez de l'argent",
+        "MORE": "En savoir plus"
     }
 }

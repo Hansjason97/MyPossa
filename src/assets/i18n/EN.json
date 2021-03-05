@@ -44,7 +44,10 @@
     },
     "TESTIMONIALS": {
         "H1": "Testimonials",
-        "H2": "What our clients say"
+        "H2": "What our clients say",
+        "C1": "I was skeptical because of the ingenuity and the ease so I ordered a first card with 10 € just to try and I was blown away! Well done MyPossa; today, living in a city where there is no commercial bank, I suggest network marketing entrepreneurs or online shoppers to use MyPossa ...",
+        "C2": "I like it because it's simpler and easier to use, and I find it secure because you top up your amount according to your capacity and use it easily. No need to suffer with visa card stories where you always have to notify your advisor. Thank you ! All work deserves its courage prize",
+        "C3": "Not bad at all, the fees are rather affordable after purchasing your MyPossa card"
     },
     "MAP": {
         "H1": "We are present around Africa",
@@ -55,5 +58,23 @@
         "H3": "404",
         "H1": "Page not found !",
         "BTN": "Return to home"
+    },
+    "PRICING": {
+        "H1": "Plans and Pricing",
+        "H2": "Choose the plan that's right for you.",
+        "P1TITLE": "MyPossa Card",
+        "P1PRICE": "7000",
+        "CURR": "xaf",
+        "P1T1": "Valid for 3 years",
+        "P1T2": "Payable in one go",
+        "P2TITLE": "Fees",
+        "P2PRICE": "---",
+        "P2T1": "Depending on the amount",
+        "P2T2": "Instant refills",
+        "P3TITLE": "Sponsorship of your friends",
+        "P3PRICE": "---",
+        "P3T1": "Refer your friends",
+        "P3T2": "And earn money",
+        "MORE": "More details"
     }
 }
