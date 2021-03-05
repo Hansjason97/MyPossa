@@ -3,12 +3,13 @@
         "ACCESS": "Access Support"
     },
     "HEADER": {
-        "HOMEHEADING": "MyPossa, your Visa card in Africa by Mobile Money for online payments.",
+        "HOMEHEADING": "MyPossa, your solution for online payments.",
         "HOMESUB": "MyPossa offers you the opportunity to get a Visa virtual card for your online payments from Africa by Orange money, Mobile Money and others. Get your account today and start sending and receiving money around the world.",
         "HOMESIGNUP": "Sign Up",
         "SIGNIN": "Sign In",
         "SOL": "Solutions",
         "DOC": "Documentation",
+        "SER": "Services",
         "TARIF": "Pricing"
     },
     "PARTNERS": {
@@ -20,7 +21,7 @@
         "H1": "Our Solutions",
         "H2": "What we offer",
         "TPE": "Mobiles POS",
-        "TPESUB": "A Mobile Point of Sale system is a handheld device equipped with technology that lets it act as a standard POS system",
+        "TPESUB": "A Mobile Point of Sale system acting as a standard POS system",
         "PAY": "MyPossa Pay",
         "PAYSUB": "Online payment merchant solution with API",
         "CALLBOX": "MyPossa CallBox",

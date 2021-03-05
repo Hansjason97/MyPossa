@@ -11,7 +11,7 @@
         </mat-nav-list>
         <br>
         <mat-nav-list>
-            <a mat-list-item routerLink="">{{'HEADER.DOC' | translate}}</a>
+            <a mat-list-item routerLink="">{{'HEADER.SER' | translate}}</a>
             <a mat-list-item routerLink="">{{'HEADER.TARIF' | translate}}</a>
         </mat-nav-list>
     </mat-drawer>
@@ -26,13 +26,8 @@
     <object data="assets/images/MyPossa.png" class="logo" routerLink="/"></object></div>
     <span class="links">
         <ul>
-        <li [matMenuTriggerFor]="menu">{{'HEADER.SOL' | translate}}<mat-icon class="inline-icon">keyboard_arrow_down</mat-icon>
-            <mat-menu #menu="matMenu">
-            <button mat-menu-item class="menu1">MyPossa Pay</button>
-            <button mat-menu-item class="menu1">MyPossa Callbox</button>
-            </mat-menu>
-        </li>
-        <li>{{'HEADER.DOC' | translate}}</li>
+        <li>{{'HEADER.SOL' | translate}}</li>
+        <li>{{'HEADER.SER' | translate}}</li>
         <li href="#pricing">{{'HEADER.TARIF' | translate}}</li>
         </ul>
     </span>

@@ -3,12 +3,13 @@
         "ACCESS": "Accéder au support"
     },
     "HEADER": {
-        "HOMEHEADING": "MyPossa, votre carte visa en Afrique par Mobile Money pour les paiements en ligne.",
+        "HOMEHEADING": "MyPossa, votre solution de paiement à distance.",
         "HOMESUB": "MyPossa vous offre l'opportunité d'acquérir une carte virtuelle Visa pour payer en ligne depuis l'Afrique à partir d'Orange Money, Mobile Money et bien d'autres. Ouvrez votre compte dès aujourd'hui et commencez à envoyer et recevoir de l'argent dans le monde entier.",
         "HOMESIGNUP": "S'inscrire",
         "SIGNIN": "Connexion",
         "SOL": "Solutions",
         "DOC": "Documentation",
+        "SER": "Services",
         "TARIF": "Tarifs"
     },
     "PARTNERS": {
@@ -20,7 +21,7 @@
         "H1": "Nos Solutions",
         "H2": "Ce que nous proposons",
         "TPE": "TPE Mobile",
-        "TPESUB": "Un terminal de paiement électronique est un appareil permettant aux commerçants d’encaisser des paiements par carte bancaire.",
+        "TPESUB": "Un terminal de paiement électronique pour les commerçants",
         "PAY": "MyPossa Pay",
         "PAYSUB": "Solution pour commerçant de paiement en ligne avec l'API",
         "CALLBOX": "MyPossa CallBox",

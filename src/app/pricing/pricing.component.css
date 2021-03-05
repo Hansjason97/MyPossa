@@ -137,6 +137,9 @@ h2 {
     margin-bottom: 0;
     color: #5D2AFF;
 }
+hr {
+  width: 60%;
+}
 /**Responsive zone*/
 @media only screen and (max-width: 425px) {
     h1{
