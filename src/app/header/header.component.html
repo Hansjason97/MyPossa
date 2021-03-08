@@ -1,2 +1,38 @@
+    <mat-toolbar class="support" fxShow="false" fxShow.gt-sm>
+        <mat-icon fontSet="material-icons-outlined">headset_mic</mat-icon>
+        <span>{{'SUPPORT.ACCESS' | translate}} </span> <mat-icon fontSet="material-icons-outlined">phone</mat-icon> <span>+237 670 55 76 65</span>
+    </mat-toolbar>
+    
+    <mat-toolbar class="navbar"> 
+       <div class="menuzone"> <div (click)="onClick()" class="btn2" fxHide="false" fxHide.gt-sm>
+        <div class="icon-bar" [@hamburguerX]="isHamburguer ? 'hamburguer' : 'topX'"></div>
+        <div class="icon-bar" [@hamburguerX]="isHamburguer ? 'hamburguer' : 'hide'"></div>
+        <div class="icon-bar" [@hamburguerX]="isHamburguer ? 'hamburguer' : 'bottomX'"></div>
+      </div>
+    <object data="assets/images/MyPossa.png" class="logo" routerLink="/"></object></div>
+    <span class="links" fxShow="false" fxShow.gt-sm>
+        <ul>
+        <li>{{'HEADER.SOL' | translate}}</li>
+        <li>{{'HEADER.SER' | translate}}</li>
+        <li href="#pricing">{{'HEADER.TARIF' | translate}}</li>
+        </ul>
+    </span>
+    <span class="trans">
+        <mat-icon aria-hidden="false">language</mat-icon>
+            <select #langselect (change)="translate.use(langselect.value)" class="selectLang">
+              <option *ngFor="let lang of translate.getLangs()" [ngValue]="lang" [selected]="lang === translate.currentLang">
+                {{ lang }}
+              </option>
+            </select>
+        <button mat-flat-button color="accent" class="btn0 btn1" fxShow="false" fxShow.gt-sm>{{'HEADER.HOMESIGNUP' | translate}}</button>
+        <button mat-stroked-button color="primary" class="btn0" fxShow="false" fxShow.gt-sm>{{'HEADER.SIGNIN' | translate}}</button>
+    </span>
+    </mat-toolbar>
 
-  
+    <mat-accordion>
+                    <mat-expansion-panel [expanded]="panelOpenState">
+                <p class="expanded-menu" routerLink="/solutions">{{'HEADER.SOL' | translate}}</p>
+                <p class="expanded-menu" routerLink="/services">{{'HEADER.SER' | translate}}</p>
+                <p class="expanded-menu" routerLink="/pricing">{{'HEADER.TARIF' | translate}}</p>
+            </mat-expansion-panel>
+    </mat-accordion>

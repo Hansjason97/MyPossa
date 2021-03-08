@@ -18,13 +18,5 @@ export class AppComponent {
       translate.use(browserLang.match(/EN|FR/) ? browserLang : 'FR');
       
   }
-
-   /**Translation functions */
-   public changeLanguage(language: string) {
-    this.translate.use(language);
-   }
-   public get currentLanguage(): string {
-    return this.translate.currentLang;
-   }
    
 }

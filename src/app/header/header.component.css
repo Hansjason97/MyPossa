@@ -1,4 +1,129 @@
-
+.navside {
+    width: 250px;
+    padding-left: 15px;
+}
+.sidemenu {
+    font-weight: 300;
+    font-size: 0.9em;
+    color: #a3a3a3;
+}
+.support {
+    display: flex;
+    height: 55px;
+    background: linear-gradient(270deg, rgba(93,42,255,1) 18%, rgba(42,44,255,1) 41%, rgba(0,87,191,1) 61%, rgba(0,150,212,1) 100%);
+    color: white;
+    font-weight: 100;  
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 1em;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: #0099CB;
+    background-color: white;
+    font-size: 1.3em;
+}
+ul {
+    list-style: none;
+    display:  flex;
+    gap: 1.5em;
+}
+ul li:hover {
+    cursor: pointer;
+}
+button {
+    font-size: 0.8em;
+    padding: 0.1em 1.2em;
+    transition: 0.5s;
+}
+button:hover {
+    cursor: pointer;
+}
+.menuzone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo {
+    height: 25px;
+    cursor: pointer;
+}
+.btn0 {
+    margin-left: 20px;
+}
+.btn1 {
+    color: white;
+}
+.btn2 {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 15px;
+}
+.icon-bar {
+    width: 22px;
+    height: 2px;
+    background: #0099CB;
+    margin: 2px;
+    position: relative;
+  }
+  
+a {
+    text-decoration: none;
+    color: white;
+}
+.menu1 {
+    font-size: 1em;
+    font-weight: 500;
+    color: #0099CB;
+    padding: 0.5em 3em;
+}
+.menu1:hover {
+    background-color: #eeeeee;
+}
+.inline-icon {
+    position: relative;
+    top: 15%;
+}
+.menu0 {
+    margin: 0 4vw ;
+}
+.menu0:hover {
+    cursor: pointer;
+}
+.links {
+    margin-top: 0.5em
+}
+.menu3 {
+    width: 80vw;
+}
+.selectLang {
+    color: #0099CB;
+    border: none;
+    background: #fff;
+}
+.trans {
+    display: flex;
+    align-items: center;
+}
+/**Mobile menu */
+.expanded-menu {
+    padding: 15px 0 10px 15px;
+    font-size: 18px;
+}
+.mat-expansion-panel{
+    color: white;
+    background: #0099CB;
+    box-shadow: none;
+}
+/*Responsive zone
+//
+*/
+@media only screen and (max-width: 959px){
+    .navbar {
+        margin-top: 20px;
+    }
+}
 
 
 
