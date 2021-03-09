@@ -79,6 +79,10 @@
         "MORE": "En savoir plus"
     },
     "TITLE": {
-        "HOME": "Accueil"
+        "HOME": "Accueil",
+        "ERROR": "404 - Non Trouvé"
+    },
+    "TTIP": {
+        "TOP": "Haut"
     }
 }

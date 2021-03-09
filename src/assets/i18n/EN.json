@@ -79,7 +79,11 @@
         "MORE": "More details"
     },
     "TITLE": {
-        "HOME": "Home"
+        "HOME": "Home",
+        "ERROR": "404 - Not Found"
+    },
+    "TTIP": {
+        "TOP": "Top"
     }
 }
 
