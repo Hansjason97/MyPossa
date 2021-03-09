@@ -37,12 +37,19 @@ import {
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(public translate: TranslateService) { }
+  constructor(public translate: TranslateService) {
+     /**Translation service */
+     translate.addLangs(['FR', 'EN']);
+     translate.setDefaultLang('FR');
+     const browserLang = translate.getBrowserLang();
+     translate.use(browserLang.match(/FR|EN/) ? browserLang : 'FR');
+   }
 
   ngOnInit(): void { }
   /**Translation functions */
   public changeLanguage(language: string) {
     this.translate.use(language);
+    console.log('changeLanguage')
    }
    public get currentLanguage(): string {
     return this.translate.currentLang;

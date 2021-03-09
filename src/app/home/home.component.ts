@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {TranslateService} from '@ngx-translate/core';
+import { Title } from '@angular/platform-browser';
+import { mergeMap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +10,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(public translate: TranslateService, private titleService: Title) { 
+    translate.onLangChange.pipe(
+      mergeMap(() => translate.get('TITLE.HOME'))
+    ).subscribe((res) => this.titleService.setTitle(res))
+  }
 
   ngOnInit(): void {
   }
