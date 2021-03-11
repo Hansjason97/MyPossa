@@ -21,11 +21,22 @@ h3 {
     padding : 10px 10px;
 }
 p {
-    font-size: 1.1em;
+    font-size: 1em;
 }
 .inner {
     width: 250px;
     margin-bottom: 30px;
+}
+hr {
+    color: #fff;
+}
+.rights {
+    text-align: center;
+    width: 80vw; 
+}
+.rights .cr {
+    font-weight: 300;
+    opacity: .6;
 }
 @media only screen and (max-width: 555px){
     .footer {
