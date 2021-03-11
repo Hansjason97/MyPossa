@@ -1,0 +1,39 @@
+object {
+    max-height: 250px;
+}
+.header {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.heading {
+    font-size: 3.5em;
+    font-weight: 700;
+    line-height: 1.1em;
+    color: #0099CB;
+    margin-top: 20px;
+}
+p, h4 {
+    font-size: 115%;
+}
+h4 {
+    text-transform: uppercase;
+}
+strong {
+    color: rgba(0,87,191,1);
+}
+.sp1 {
+    margin-bottom: 10vh;
+}
+@media only screen and (max-width: 1023px) {
+    .heading {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .heading {
+        font-size: 22px;
+    }
+}

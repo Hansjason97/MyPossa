@@ -1,3 +1,4 @@
+import { AgreementComponent } from './agreement/agreement.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { ErreurComponent } from './erreur/erreur.component';
 import { MaterialModule } from './material.module';
@@ -39,7 +40,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     OurMapComponent,
     TestimonialsComponent,
     ErreurComponent,
-    PricingComponent
+    PricingComponent,
+    AgreementComponent
   ],
   imports: [
     BrowserModule,

@@ -38,6 +38,13 @@ hr {
     font-weight: 300;
     opacity: .6;
 }
+a {
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: #8ee3ff;
+}
 @media only screen and (max-width: 555px){
     .footer {
         padding: 5vh 30px 5vh 15vw;

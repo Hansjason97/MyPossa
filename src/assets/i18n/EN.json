@@ -80,7 +80,8 @@
     },
     "TITLE": {
         "HOME": "Home",
-        "ERROR": "404 - Not Found"
+        "ERROR": "404 - Not Found",
+        "AGREEMENT": "Terms and conditions"
     },
     "TTIP": {
         "TOP": "Top"
