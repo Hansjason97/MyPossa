@@ -1,0 +1,7 @@
+.goTop {
+    position: fixed;
+  bottom: 20px;
+  right: 25px;
+  display: flex;
+  justify-content: center;
+}

@@ -61,13 +61,7 @@ h3 {
     justify-content: center;
     flex-direction: column;
 }
-.goTop {
-    position: fixed;
-  bottom: 20px;
-  right: 25px;
-  display: flex;
-  justify-content: center;
-}
+
 /** Responsive*/
 @media only screen and (max-width: 1023px){
     .header {
