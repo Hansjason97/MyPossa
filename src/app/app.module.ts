@@ -1,3 +1,4 @@
+import { AboutComponent } from './about/about.component';
 import { AgreementComponent } from './agreement/agreement.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { ErreurComponent } from './erreur/erreur.component';
@@ -41,7 +42,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     TestimonialsComponent,
     ErreurComponent,
     PricingComponent,
-    AgreementComponent
+    AgreementComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

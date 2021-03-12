@@ -81,13 +81,17 @@
     "TITLE": {
         "HOME": "Accueil",
         "ERROR": "404 - Non Trouvé",
-        "AGREEMENT": "Conditions générales d'utilisation et vente de MyPossa"
+        "AGREEMENT": "Conditions générales d'utilisation et vente de MyPossa",
+        "ABOUT": "Entreprise"
     },
     "TTIP": {
         "TOP": "Haut"
     },
     "OTHERS": {
         "RIGHTS": "Tous droits réservés"
+    },
+    "ABOUT": {
+        "HEADER": "L'équipe de MyPossa"
     },
     "AGREEMENT": {
         "HEADER": "Termes et conditions de MyPossa",

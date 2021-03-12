@@ -81,13 +81,17 @@
     "TITLE": {
         "HOME": "Home",
         "ERROR": "404 - Not Found",
-        "AGREEMENT": "Terms and conditions"
+        "AGREEMENT": "Terms and conditions",
+        "ABOUT": "About us"
     },
     "TTIP": {
         "TOP": "Top"
     },
     "OTHERS": {
         "RIGHTS": "All rights reserved"
+    },
+    "ABOUT": {
+        "HEADER": "About our company"
     }
 }
 
