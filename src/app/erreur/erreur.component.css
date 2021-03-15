@@ -1,6 +1,10 @@
 div {
     text-align: center;
     margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+object {
+    max-height: 250px;
 }
 h3 {
     font-weight: 500;
@@ -11,4 +15,11 @@ h1 {
     font-weight: 700;
     font-size: 3.7em;
     color:  rgba(93,42,255,1);
+    line-height: 1em;
 }
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+

@@ -14,3 +14,14 @@ object {
     color: #0099CB;
     margin-top: 20px;
 }
+@media only screen and (max-width: 1023px) {
+    .heading {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .heading {
+        font-size: 22px;
+    }
+}
