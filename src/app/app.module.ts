@@ -1,3 +1,4 @@
+import { LegalComponent } from './legal/legal.component';
 import { AboutComponent } from './about/about.component';
 import { AgreementComponent } from './agreement/agreement.component';
 import { PricingComponent } from './pricing/pricing.component';
@@ -43,7 +44,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     ErreurComponent,
     PricingComponent,
     AgreementComponent,
-    AboutComponent
+    AboutComponent,
+    LegalComponent
   ],
   imports: [
     BrowserModule,
