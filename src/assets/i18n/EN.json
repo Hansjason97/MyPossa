@@ -93,6 +93,18 @@
     },
     "ABOUT": {
         "HEADER": "About our company"
+    },
+    "LEGAL": {
+        "HEADER": "Privacy",
+        "PA1": "MyPossa services are distributed by DANOL GROUP, a company registered in CAMEROON under number RC / DLA / 2019 / B / 741 and having its head office in Akwa, Douala Cameroon. DANOL GROUP is the publisher of the web application ",
+        "PA2": " which allows its customers to pay invoices, purchases or accept payments in complete safety, to transfer money to third-party users, to purchase virtual visa cards, to manage your money ...",
+        "PC1": "Collection of personal data",
+        "PC2": "We collect information when you subscribe to our services (last name (s), first name (s), contact details, credentials), when you connect / disconnect to your account, make an operation.",
+        "PC3": "The information collected is transmitted by you to our services and includes your name (s), first name (s), personal and bank details, proof of identification, transactions carried out.",
+        "PC4": "In addition, we automatically receive and record information from the hardware used to connect to our services when available (such as IP address, hardware ID, operating system).",
+        "PC5": "Retention of personal data",
+        "PC6": "We keep your personal information for the duration of the business relationship and in accordance with this privacy policy, unless the law requires a different duration. You can revoke your consent to our privacy policy at any time or exercise your right to access and have your data corrected by contacting us at: ",
+        "PD1": "Hosts"
     }
 }
 

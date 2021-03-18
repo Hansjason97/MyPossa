@@ -94,6 +94,18 @@
     "ABOUT": {
         "HEADER": "L'équipe de MyPossa"
     },
+    "LEGAL": {
+        "HEADER": "Mentions Légales",
+        "PA1": "Les services de MyPossa sont distribués par DANOL GROUP, entreprise enregistrée au CAMEROUN  sous le numéro RC/DLA/2019/B/741 et ayant son siège social à Akwa,Douala Cameroun. DANOL GROUP  est éditeur de la web-application ",
+        "PA2": " qui permet a ses clients de régler les factures, des achats ou d'accepter des paiements en toute sécurité, de virer de l'argent à des utilisateurs tiers, d'acheter des cartes visas virtuelle, de gérer son argent ...",
+        "PC1": "Collecte de données personnelles",
+        "PC2": "Nous recueillons des informations lorsque vous souscrivez à nos services (nom(s), prénom(s), coordonnées, justificatifs d’identification), lorsque vous vous connectez / déconnectez à votre compte, faites une opération.",
+        "PC3": "Les informations recueillies sont transmises par vos soins à nos services et incluent vos nom(s), prénom(s), coordonnées personnelles et bancaires, justificatifs d’identification, opérations effectuées.",
+        "PC4": "En outre, nous recevons et enregistrons automatiquement des informations à partir du matériel utilisé pour vous connecter à nos services quand elles sont disponibles (comme l'adresse IP, l'ID matériel, le système d’exploitation).",
+        "PC5": "Conservation des données personnelles",
+        "PC6": "Nous conservons vos informations personnelles pendant la durée de la relation d’affaire et en conformité avec la présente politique de confidentialité, sauf si la loi impose une durée différente. Vous pouvez à tout moment révoquer votre consentement à notre politique de confidentialité ou exercer votre droit d'accès aux données vous concernant et les faire rectifier en nous contactant à l’adresse: ",
+        "PD1": "Hébergeurs"
+    },
     "AGREEMENT": {
         "HEADER": "Termes et conditions de MyPossa",
         "P1": "En visitant et en effectuant des transactions sur MyPossa et son application mobile, vous acceptez les Conditions générales.",

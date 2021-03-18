@@ -20,11 +20,14 @@ p, h4 {
 h4 {
     text-transform: uppercase;
 }
-strong {
+strong, a {
     color: rgba(0,87,191,1);
 }
 .sp1 {
     margin-bottom: 10vh;
+}
+a {
+    text-decoration: none;
 }
 @media only screen and (max-width: 1023px) {
     .heading {

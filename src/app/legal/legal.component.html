@@ -1,9 +1,20 @@
 <app-header></app-header>
 <div class="header">
     <object data="assets/images/legal.svg" ></object>
-        <p class="heading">{{'ABOUT.HEADER' | translate}}</p>
+        <p class="heading">{{'LEGAL.HEADER' | translate}}</p>
 </div>
-<div style="height: 400px;">
+<div class="container sp1">
+    <p>{{ 'LEGAL.PA1' | translate }}<a href="https://www.mypossa.com">MyPossa</a>{{ 'LEGAL.PA2' | translate }}</p><br>
+    <p><strong>{{ 'LEGAL.PC1' | translate }}</strong><br>
+        {{ 'LEGAL.PC2' | translate }}<br>
+        {{ 'LEGAL.PC3' | translate }}<br>
+        {{ 'LEGAL.PC4' | translate }}
+    </p>
+    <p><strong>{{ 'LEGAL.PC5' | translate }}</strong><br>
+        {{ 'LEGAL.PC6' | translate }}<a href="mailto:support@mypossa.com">support</a>.
+    </p><br>
+    <p><strong>{{ 'LEGAL.PD1' | translate }} :</strong></p>
+    <img src="assets/images/lws-logo.png" alt="lws" class="logo"><img src="assets/images/uwh-logo.png" alt="uwh" class="logo">
 
 </div>
 <app-footer></app-footer>
