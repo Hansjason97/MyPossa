@@ -12,6 +12,18 @@
         "SER": "Services",
         "TARIF": "Pricing"
     },
+    "FOOTER": {
+      "SERVICES": "Our Services",
+      "CONTACT": "Contact",
+      "ABOUT": "About Us",
+      "DEV": "Developers",
+      "US": "Company",
+      "CONDITIONS": "Terms & Conditions",
+      "HELP": "Help",
+      "LEGAL": "Legal Notice",
+      "DOC": "Documentation"
+
+    },
     "PARTNERS": {
         "H1": "Our Partners",
         "H2": "They trust us",
