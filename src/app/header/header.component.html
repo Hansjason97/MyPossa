@@ -2,8 +2,8 @@
         <mat-icon>headset_mic</mat-icon>
         <span>{{'SUPPORT.ACCESS' | translate}} </span> <mat-icon>phone</mat-icon> <span>+237 670 55 76 65</span>
     </mat-toolbar>
-    
-    <mat-toolbar class="navbar"> 
+
+    <mat-toolbar class="navbar">
        <div class="menuzone"> <div (click)="onClick()" class="btn2" fxHide="false" fxHide.gt-sm>
         <div class="icon-bar" [@hamburguerX]="isHamburguer ? 'hamburguer' : 'topX'"></div>
         <div class="icon-bar" [@hamburguerX]="isHamburguer ? 'hamburguer' : 'hide'"></div>
@@ -12,9 +12,9 @@
     <object data="assets/images/MyPossa.png" class="logo" routerLink="/"></object></div>
     <span class="links" fxShow="false" fxShow.gt-sm>
         <ul>
-        <li>{{'HEADER.SOL' | translate}}</li>
-        <li>{{'HEADER.SER' | translate}}</li>
-        <li href="#pricing">{{'HEADER.TARIF' | translate}}</li>
+        <li routerLink="/solutions">{{'HEADER.SOL' | translate}}</li>
+        <li routerLink="/services">{{'HEADER.SER' | translate}}</li>
+        <li routerLink="/pricing">{{'HEADER.TARIF' | translate}}</li>
         </ul>
     </span>
     <span class="trans">

@@ -31,7 +31,8 @@
         "DIASPORA": "MyPossa Diaspora",
         "DIASPORASUB": "Envoyez de l'argent ou du crédit à vos proches depuis l'étranger",
         "VCARD": "Carte Virtuelle",
-        "VCARDSUB": "Nous mettons à votre disposition des cartes virtuelles VISA ou Mastercard pour vos paiements en ligne"
+        "VCARDSUB": "Nous mettons à votre disposition des cartes virtuelles VISA ou Mastercard pour vos paiements en ligne",
+        "DWL": "Téléchargez l'application dès maintenant !"
     },
     "SERVICES": {
         "HEADING": "Nos Services",
@@ -105,6 +106,10 @@
         "PC5": "Conservation des données personnelles",
         "PC6": "Nous conservons vos informations personnelles pendant la durée de la relation d’affaire et en conformité avec la présente politique de confidentialité, sauf si la loi impose une durée différente. Vous pouvez à tout moment révoquer votre consentement à notre politique de confidentialité ou exercer votre droit d'accès aux données vous concernant et les faire rectifier en nous contactant à l’adresse: ",
         "PD1": "Hébergeurs"
+    },
+    "HELP": {
+      "HEADER": "Aide",
+      "CONTACT": "Vous rencontrez un soucis ? Contacter notre équipe aux adresses ci-dessous :"
     },
     "AGREEMENT": {
         "HEADER": "Termes et conditions de MyPossa",

@@ -31,7 +31,8 @@
         "DIASPORA": "MyPossa Diaspora",
         "DIASPORASUB": "Send money or airtime to loved ones from abroad",
         "VCARD": "Virtual Card",
-        "VCARDSUB": "We provide VISA or Mastercard virtual cards for your online payments"
+        "VCARDSUB": "We provide VISA or Mastercard virtual cards for your online payments",
+        "DWL": "Download the application now !"
     },
     "SERVICES": {
         "HEADING": "Our Services",
@@ -105,6 +106,10 @@
         "PC5": "Retention of personal data",
         "PC6": "We keep your personal information for the duration of the business relationship and in accordance with this privacy policy, unless the law requires a different duration. You can revoke your consent to our privacy policy at any time or exercise your right to access and have your data corrected by contacting us at: ",
         "PD1": "Hosts"
+    },
+    "HELP": {
+      "HEADER": "Help",
+      "CONTACT": "You encountering trouble ? Contact our team with below links :"
     }
 }
 

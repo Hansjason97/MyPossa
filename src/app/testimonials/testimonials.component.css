@@ -1,7 +1,7 @@
 section {
     background-color: rgba(0,87,191,1);
     text-align: center;
-    padding: 30px 10vw;
+    padding: 80px 10vw;
     margin: auto;
 }
 h1 {
@@ -56,4 +56,4 @@ img {
     h2 {
         font-weight: 500;
     }
-} 
+}

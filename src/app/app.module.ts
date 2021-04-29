@@ -1,3 +1,8 @@
+import { HelpComponent } from './help.component';
+import { TarifComponent } from './pricing/tarif.component';
+import { DownloadComponent } from './download.component';
+import { ServicesComponent } from './our-services/services.component';
+import { SolutionsComponent } from './solutions/solutions.component';
 import { LegalComponent } from './legal/legal.component';
 import { AboutComponent } from './about/about.component';
 import { AgreementComponent } from './agreement/agreement.component';
@@ -17,7 +22,7 @@ import { PartnersComponent } from './partners/partners.component';
 import { OurSolutionsComponent } from './our-solutions/our-solutions.component';
 import { OurServicesComponent } from './our-services/our-services.component';
 import { OurMapComponent } from './our-map/our-map.component';
-import { TestimonialsComponent } from './testimonials/testimonials.component'; 
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
@@ -45,7 +50,12 @@ export function HttpLoaderFactory(http: HttpClient) {
     PricingComponent,
     AgreementComponent,
     AboutComponent,
-    LegalComponent
+    LegalComponent,
+    DownloadComponent,
+    SolutionsComponent,
+    ServicesComponent,
+    TarifComponent,
+    HelpComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,6 @@
 .solutions {
     text-align: center;
-    padding: 30px 10vw;
+    padding: 80px 10vw;
 }
 .parent {
     display: flex;
@@ -42,4 +42,4 @@ h2 {
     h2 {
         font-weight: 500;
     }
-} 
+}
