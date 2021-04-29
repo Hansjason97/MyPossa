@@ -1,3 +1,5 @@
+import { DocsComponent } from './docs.component';
+import { UnderComponent } from './under.component';
 import { HelpComponent } from './help.component';
 import { TarifComponent } from './pricing/tarif.component';
 import { DownloadComponent } from './download.component';
@@ -50,9 +52,11 @@ export function HttpLoaderFactory(http: HttpClient) {
     AboutComponent,
     LegalComponent,
     DownloadComponent,
+    UnderComponent,
     SolutionsComponent,
     ServicesComponent,
     TarifComponent,
+    DocsComponent,
     HelpComponent
   ],
   imports: [

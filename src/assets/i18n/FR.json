@@ -1,7 +1,11 @@
 {
     "SUPPORT": {
         "ACCESS": "Accéder au support",
-        "LINK": "assets/images/gplay_fr.png"
+        "LINK": "assets/images/gplay_fr.png",
+        "UNDER": "Cette page n'est pas encore disponible pour l'instant. "
+    },
+    "DOCS": {
+      "HEADER": "Documentation"
     },
     "HEADER": {
         "HOMEHEADING": "MyPossa, votre solution de paiement à distance.",

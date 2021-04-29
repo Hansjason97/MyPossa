@@ -1,3 +1,4 @@
+import { DocsComponent } from './docs.component';
 import { HelpComponent } from './help.component';
 import { TarifComponent } from './pricing/tarif.component';
 import { ServicesComponent } from './our-services/services.component';
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: 'services', component: ServicesComponent },
   { path: 'pricing', component: TarifComponent },
   { path: 'help', component: HelpComponent},
+  { path : 'docs', component: DocsComponent },
   { path:'**', component: ErreurComponent }
 ];
 

@@ -1,7 +1,11 @@
 {
     "SUPPORT": {
         "ACCESS": "Access Support",
-        "LINK": "assets/images/gplay_en.png"
+        "LINK": "assets/images/gplay_en.png",
+        "UNDER": "This page is unavailable for the moment."
+    },
+    "DOCS": {
+      "HEADER": "Documentation"
     },
     "HEADER": {
         "HOMEHEADING": "MyPossa, your solution for online payments.",

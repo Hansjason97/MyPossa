@@ -22,12 +22,8 @@
     font-size: 1.3em;
     line-height: 1.4em;
 }
-.signup {
-    padding: 0.3em 1.5em;
-    border-radius: 5px;
-    border: 2px solid #FFCC33;
-    font-size: 1.5em;
-    font-weight: 700;
+.download {
+    height: 80px;
 }
 
 button:hover {
@@ -75,4 +71,5 @@ h3 {
         width: 100%;
         margin: auto;
     }
+
 }
