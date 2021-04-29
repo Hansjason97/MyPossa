@@ -1,6 +1,7 @@
 {
     "SUPPORT": {
-        "ACCESS": "Access Support"
+        "ACCESS": "Access Support",
+        "LINK": "assets/images/gplay_en.png"
     },
     "HEADER": {
         "HOMEHEADING": "MyPossa, your solution for online payments.",
